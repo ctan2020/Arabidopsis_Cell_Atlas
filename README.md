@@ -1,2 +1,8 @@
 # Arabidopsis_Cell_Atlas
 a comprehensive single-cell transcriptomic atlas of Arabidopsis
+
+To generate a comprehensive cell atlas of the model plant Arabidopsis, we collected 20 samples from six major organs that present key developmental stages and transitions throughout the entire life cycle, including two stages of root (6d and 11d), shoot at 11d (cotyledon, SAM and leaf primordia), six stages of rosette leaf (the second pair of rosette from young to senescent stage), stem (apical, branch and basal regions), cauline leaf at 42d, three stages of flower (flower bud to fully opened flowers) and six timepoints of silique (0 to 5d after anthesis with 1 day interval).
+
+Over one million nuclei from 20 samples passed accepted droplet-based single nuclei filtering criteria with gene number > 200. Following the majority of previous studies, we used a more rigorous criteria with gene number > 500 to obtain high-quality nuclei for downstream analyses. A total of 913,769 nuclei passed our quality control, with 1610 mean genes and 2451 mean UMIs captured in each nucleus. Cells from each of the 20 samples were independently clustered using Seurat and integrated to generate a comprehensive transcriptome atlas. Independent clustering of each dataset resulted in a total of 367 clusters, 97.55% (358 out of 367) of which were successfully annotated to corresponding cell types based on known cell-type marker genes or biological functions of cluster-enriched genes.
+
+This atlas serves as a valuable resource for the entire Arabidopsis community and contributes a comprehensive reference for future investigations of non-model plant species at single cell resolution.
